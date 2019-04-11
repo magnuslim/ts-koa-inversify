@@ -1,0 +1,34 @@
+{
+  "name": "ts-koa-inversify",
+  "version": "1.0.0",
+  "description": "a toy project using koa along with inversify",
+  "main": "index.js",
+  "author": "Magnus",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/spanner": "^3.1.0",
+    "@types/stack-trace": "^0.0.29",
+    "inversify": "^5.0.1",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "reflect-metadata": "^0.1.13",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.40",
+    "@types/lodash": "^4.14.123",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb-typescript": "^1.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "nodemon": "^1.18.11",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.3"
+  },
+  "scripts": {
+    "start": "ts-node server/server.ts"
+  }
+}
